@@ -52,7 +52,9 @@ In addition to the concepts mentioned above, before you start the tutorial be su
 1. The first building block you need for this project can be found [**here**](https://github.com/germarr/yotube_channel_stats/blob/main/README.md). Be sure to check the tutorial on that link before continuing the tutorial.
 
 2. After checking the code from point **1**  the code should look like this:
+
 ```python
+
 from googleapiclient.discovery import build
 
 api_key= "< Paste the Google API Key here >"
@@ -68,7 +70,9 @@ channel_stats = youtube.channels().list(
     part=["statistics","snippet"],
     id=channel_id
     ).execute()
+
 ```
+
 3. Now we're going to create a variable called `upload`. This variable will contain the id of the Upload playlist. Every channel on Youtube has this playlist. Some channels hide it to the users and others leave it visible. This playlist is important because it contains every video the channel has ever published.
 
 ```python
