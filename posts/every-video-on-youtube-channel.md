@@ -1,6 +1,8 @@
 ---
-title: Key stats of every video published by a Youtube channel
-description: Tutorial that walks trough the steps neccesary to get the data from a Youtube video.
+Title: Key stats of every video published by a Youtube channel
+date: August 19th, 2021.
+Subtitle: Tutorial that walks trough the steps neccesary to get the data from a Youtube video.
+slug: every-video-on-youtube-channel
 ---
 
 # Key stats of every video published by a Youtube channel.

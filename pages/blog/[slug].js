@@ -4,7 +4,8 @@ import matter from "gray-matter"
 import Head from "next/head"
 import marked from "marked"
 
-export default function Post({htmlString, data}) {
+export default function Post({htmlString, data, example}) {
+    console.log( )
     return (
         <>
         <Head>
@@ -17,12 +18,6 @@ export default function Post({htmlString, data}) {
 }
 
 export async function getStaticPaths(){
-    // const response = await fetch("http://localhost:1337/posts")
-    // const posts = await response.json();
-
-    // const paths = posts.map((post)=>({
-    //     params:{slug:post.Slug}
-    // }))
     
     const files = fs.readdirSync("posts");
     const paths = files.map(filename=>({
@@ -48,7 +43,8 @@ export const getStaticProps = async({params:{slug}})=>{
     return{
         props:{
             htmlString,
-            data:parsedMarkdown.data
+            data:parsedMarkdown.data,
+            example:markDownWithMetaData
         }
     }
 }

@@ -1,6 +1,8 @@
 ---
-title: Youtube Channel Key Stats
-description: Blog Article talking about how to get the main statistics from a Youtube site.
+Title: Youtube Channel Key Stats
+date: August 19th, 2021.
+Subtitle: Blog Article talking about how to get the main statistics from a Youtube site.
+slug: youtube-channel-key-stats
 ---
 
 
