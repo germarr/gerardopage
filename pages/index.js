@@ -156,17 +156,17 @@ export default function Home({data, dataTwo}) {
           </div>
         </div>
           <div className="bg-white py-8 md:grid md:grid-cols-12 flex-row">        
-            <div className="md:col-start-2 md:col-span-5 mx-7 md:mt-28">
-              <div className="mb-1"><h1 className="text-4xl font-bold text-gray-800">who am i</h1></div>
+            <div className="md:col-start-2 md:col-span-5 mx-7 md:mt-36">
+              <div className="mb-1"><h1 className="text-4xl md:text-6xl font-bold text-gray-800">who am i</h1></div>
               <div><h3 className="text-md font-semibold text-white bg-gray-600 p-1">Data Enthusiast. Currently Living in the 🇺🇸 but originally from 🇲🇽</h3></div>
-              <div className="space-y-3 mt-2">
-                <p className="text-gray-700 text-lg font-normal">I've spent the last 7 years working in digital strategy, business intelligence and marketing analytics.</p>
-                <p className="text-gray-700 text-lg font-normal">From 2012 to 2019 I got the awesome opportunity to work for 2 of the most popular automotive brands in the world and on 2020, while finishing my master's degree, I changed gears and went on to do consulting work for Rappi (one of Latam's biggest startups) and Planet Fitness (one of the largest gym chains in the US).</p>
-                <p className="text-gray-700 text-lg font-normal"> Currently I'm working for Corsair as a Marketing Analytics specialist for their E-commerce platform.</p>
+              <div className="space-y-6 mt-2">
+                <p className="text-gray-700 text-lg md:text-2xl font-normal">I've spent the last 7 years working in digital strategy, business intelligence and marketing analytics.</p>
+                <p className="text-gray-700 text-lg md:text-2xl font-normal">From 2012 to 2019 I got the awesome opportunity to work for 2 of the most popular automotive brands in the world and on 2020, while finishing my master's degree, I changed gears and went on to do consulting work for Rappi (one of Latam's biggest startups) and Planet Fitness (one of the largest gym chains in the US).</p>
+                <p className="text-gray-700 text-lg md:text-2xl font-normal"> Currently I'm working for Corsair as a Marketing Analytics specialist for their E-commerce platform.</p>
               </div>
             </div>        
             <div className="md:col-start-7 md:col-span-5 mx-7 mt-6">
-              <div><h1 className="text-4xl font-bold text-gray-800 p-1">favorite tech</h1></div>
+              <div><h1 className="text-4xl md:text-6xl font-bold text-gray-800 p-1">favorite tech</h1></div>
               <div><h3 className="text-md font-semibold text-white bg-gray-600 p-1">most of my projects are done with</h3></div>
               <div className="p-1">
                 <div className="grid grid-cols-3">

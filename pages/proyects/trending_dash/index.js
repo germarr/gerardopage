@@ -8,7 +8,7 @@ const navigation={
     "channel_id": "",
     "channel_title": "",
     "video_id": "",
-    "publishedAt": "",
+    "publishedat": "",
     "title": "TBD",
     "viewCount": 0,
     "likeCount": 0,
@@ -18,7 +18,7 @@ const navigation={
     "thumbnail": "https://via.placeholder.com/320x180.png?text=TBD",
     "link": "0",
     "video_lang": 0,
-    "categoryId": 0,
+    "categoryid": 0,
     "description": "",
     "AR": 0,
     "CountriesTrending": 0,
@@ -60,11 +60,12 @@ export default function Home() {
   const printOnScreen = async(e) =>{
     e.preventDefault();
     try{
-      const res = await fetch(`http://localhost:2222/trending/${text}?values=${number}`);
+      const res = await fetch(`http://localhost:7777/trending/${text}?values=${number}`);
       const data = await res.json();
       setFlags(data["flags"])
       setVideos(data["items"])
       console.log(">>>>",data["flags"])
+      console.log(">>>", data["items"])
     }catch(err){
         console.log(err)
     }

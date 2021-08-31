@@ -52,19 +52,6 @@ const emptyData ={"items":{
 
 }}
 
-export const getStaticProps = async () =>{
-  const res = await fetch("http://localhost:2222/datosV2")
-
-  const data = await res.json();
-
-  return {
-    props:{"dataO": data}
-  }
-}
-
-const navigation = [{
-
-}]
 
 export default function index() {
 
@@ -75,9 +62,9 @@ export default function index() {
       e.preventDefault();
       console.log(text)
       try{
-        const res = await fetch(`http://localhost:2222/datos/${text.split("?").pop()}`);
+        const res = await fetch(`http://localhost:7777/youtube_dash/${text.split("?").pop()}`);
         const data = await res.json();
-        
+        console.log(res)
         setQuery(data['items'])
   
       }catch(err){
