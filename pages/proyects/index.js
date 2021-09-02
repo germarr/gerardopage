@@ -75,7 +75,7 @@ export default function ytb_dash() {
             <title>Projects</title>
             <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div>
+            <div className="bg-gray-200">
                 <div className='flex justify-center mt-0 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 py-16 sticky'>
                     <h1 className='font-bold text-3xl text-white'>Check out some of my projects.</h1>
                 </div>

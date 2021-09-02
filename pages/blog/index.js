@@ -33,7 +33,7 @@ export default function index({data, dataTwo}) {
     const navigationTwo = [data, dataTwo]
     
     return (
-        <div>                
+        <div className="bg-gray-200">                
             <div className='flex justify-center mt-0 bg-gradient-to-r from-green-400 to-blue-500 py-16 sticky'>
                 <h1 className='text-3xl font-extrabold tracking-tight sm:text-4xl md:text-[4rem] md:leading-[3.5rem] text-white'>Blog.</h1>
             </div>

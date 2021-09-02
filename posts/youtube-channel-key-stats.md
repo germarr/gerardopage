@@ -172,6 +172,7 @@ print(f"{'{:,}'.format(number_of_videos)} published videos.")
 print(f"{'{:,}'.format(amount_of_subscribers)} subscribers.")
 ```
 10. Here's an example of the entire code we build throughout this tutorial:
+    
 ```python
 from googleapiclient.discovery import build
 

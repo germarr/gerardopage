@@ -38,7 +38,7 @@ const navigation={
     "ES",
     "FR",
     "GB",
-    "IN",
+    "INDIA",
     "IT",
     "JP",
     "KR",
@@ -60,7 +60,7 @@ export default function Home() {
   const printOnScreen = async(e) =>{
     e.preventDefault();
     try{
-      const res = await fetch(`http://localhost:7777/trending/${text}?values=${number}`);
+      const res = await fetch(`http://34.220.116.144/trending/${text}?values=${number}`);
       const data = await res.json();
       setFlags(data["flags"])
       setVideos(data["items"])
@@ -73,7 +73,7 @@ export default function Home() {
 
 
   return (
-    <div>
+    <div class="bg-gray-200 py-1">
       <Head>
         <title>Youtube Trending</title>
         <link rel="icon" href="/favicon.ico" />

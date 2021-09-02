@@ -12,7 +12,7 @@ export default function Post({htmlString, data, example}) {
             <title>{data.title}</title>
             <meta title="description" content={data.description}/>
         </Head>
-        <div className="prose mt-8 max-w-max md:mx-48 mx-10 prose-indigo" dangerouslySetInnerHTML={{__html:htmlString}}></div>
+        <div className="prose mt-8 max-w-max md:mx-48 mx-10 prose-indigo bg-white" dangerouslySetInnerHTML={{__html:htmlString}}></div>
         </>
     )
 }
